@@ -5,13 +5,12 @@ Este proyecto realiza un análisis exploratorio y visualización de datos del da
 ## Estructura del proyecto
 
 atlas-higgs/
-├── data/          # Coloca aquí el CSV descargado manualmente
-├── plots/         # Gráficas generadas automáticamente
-├── src/           # Código Python
-│   ├── analysis.py
-│   └── visualization.py
-├── README.md
-└── requirements.txt
+ data/          
+src/           
+│ analysis.py
+│ visualization.py
+README.md
+requirements.txt
 
 ## Requisitos
 
@@ -38,8 +37,11 @@ Descárgalo desde Kaggle: [Atlas Higgs Challenge 2014](https://www.kaggle.com/c/
 ```bash
 pip install -r requirements.txt
 
+2. Ejecutar analisis
 
 python src/analysis.py
+
+3. Graficas
 python src/visualization.py
 
 Autor
