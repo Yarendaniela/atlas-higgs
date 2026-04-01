@@ -5,10 +5,11 @@ Este proyecto realiza un análisis exploratorio y visualización de datos del da
 ## Estructura del proyecto
 
 atlas-higgs/
- data/          
+data/          
 src/           
-│ analysis.py
-│ visualization.py
+-analysis.py
+-visualization.py
+
 README.md
 requirements.txt
 
